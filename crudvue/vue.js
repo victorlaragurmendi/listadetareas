@@ -60,7 +60,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 return new Promise((result, reject) => {
                     setTimeout(() => {
                         if(!users.filter(u => u.id == paciente_id)){
-                            reject(" no existe usuario con ese id")
+                            reject(" no existe usuario con ese id xd")
                         }
                         resolve(ejemplo)
                     }, 2000)
